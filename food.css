@@ -71,10 +71,85 @@ button{
     padding: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px ) and (min-height: 480px) {
+    body{
+        background-color:#11111F
+    }
+    header img{
+        margin-top: 100px;
+    }
     nav a {
         display: block;
         margin: 10px 0;
+    }
+    
+}
+
+@media screen and (min-width: 375px ) and (min-height: 812px) {
+    header img{
+        margin-top: 250px;
+        margin-bottom: 100px;
+    }
+    nav{
+        margin-bottom: 20px;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    
+}
+
+@media screen and (min-width: 411px ) and (min-height: 731px) {
+    header img{
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+    nav{
+        margin-bottom: 20px;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    
+}
+
+@media screen and (min-width: 768px ) and (min-height: 1024px) {
+    header img{
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+    nav a {
+        font-size: 30px;
+        display: block;
+        margin: 10px 0;
+    }
+    
+}
+
+@media screen and (min-width: 1440px ) and (min-height: 900px) {
+    header img{
+        max-width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    nav{
+        justify-content: center;
+        display: flex;
+        margin: 20px;
+    }
+    nav a {
+        font-size: 30px;
+        display: block;
+        margin: 10px 0;
+    }
+    #menus{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .menu-item{
+        padding: 10px;
     }
     
 }
