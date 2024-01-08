@@ -4,8 +4,8 @@ body {
     padding: 0;
     background-color: #1d1d4c;
 }
-
-header {
+/*CSS for header*/
+header { 
     position: relative;
     background-color: #11111F;
     color: #fff;
@@ -15,7 +15,7 @@ header img{
     max-width: 100%;
     display: block;
 }
-
+/*CSS for navigation*/
 nav {
     background-color: #11111F;
     color: #fff;
@@ -35,7 +35,7 @@ section {
     padding: 30px;
     color: #fff;
 }
-
+/*CSS for menu*/
 .menu-item {
     color: black;
     border: 1px solid #ddd;
@@ -54,7 +54,7 @@ section {
     border-radius: 5px;
     margin-bottom: 10px;
 }
-
+/*CSS for footer*/
 footer {
     background-color: #11111F;
     color: #fff;
@@ -64,13 +64,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
+/*CSS for the add button*/
 button{
     background-color: #11111F;
     color: #fff;
     padding: 10px;
 }
-
+/*media queries for each size which i giin in the requiements*/
 @media screen and (min-width: 320px ) and (min-height: 480px) {
     body{
         background-color:#11111F
@@ -144,7 +144,7 @@ button{
         display: block;
         margin: 10px 0;
     }
-    #menus{
+    #menus{ /*Grid for menu*/
         display: grid;
         grid-template-columns: 50% 50%;
     }
