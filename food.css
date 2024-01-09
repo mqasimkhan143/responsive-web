@@ -71,7 +71,7 @@ button{
     padding: 10px;
 }
 /*media queries for each size which i giin in the requiements*/
-@media screen and (min-width: 320px ) and (min-height: 480px) {
+@media screen and (min-width: 320px ) {
     body{
         background-color:#11111F
     }
@@ -85,7 +85,7 @@ button{
     
 }
 
-@media screen and (min-width: 375px ) and (min-height: 812px) {
+@media screen and (min-width: 375px ) {
     header img{
         margin-top: 250px;
         margin-bottom: 100px;
@@ -100,7 +100,7 @@ button{
     
 }
 
-@media screen and (min-width: 411px ) and (min-height: 731px) {
+@media screen and (min-width: 411px ) {
     header img{
         margin-top: 150px;
         margin-bottom: 100px;
@@ -115,7 +115,7 @@ button{
     
 }
 
-@media screen and (min-width: 768px ) and (min-height: 1024px) {
+@media screen and (min-width: 768px ) {
     header img{
         margin-top: 200px;
         margin-bottom: 100px;
@@ -128,7 +128,11 @@ button{
     
 }
 
-@media screen and (min-width: 1440px ) and (min-height: 900px) {
+@media screen and (min-width: 1024px ) {
+    #menus{ /*Grid for menu*/
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
     header img{
         max-width: 100%;
         margin-top: 0;
@@ -143,10 +147,6 @@ button{
         font-size: 30px;
         display: block;
         margin: 10px 0;
-    }
-    #menus{ /*Grid for menu*/
-        display: grid;
-        grid-template-columns: 50% 50%;
     }
     .menu-item{
         padding: 10px;
